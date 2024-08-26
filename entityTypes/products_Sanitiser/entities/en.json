@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Spray Seat Sanitiser",
+    "synonyms": [ "seat sanitiser", "spray sanitiser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Foam seat sanitiser",
+    "synonyms": [ "foam sanitiser", "Foam seat sanitiser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hand Sanitiser",
+    "synonyms": [ "Hand Sanitiser" ],
+    "languageCode": "en"
+  } ]
+}

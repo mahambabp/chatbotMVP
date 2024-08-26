@@ -1,0 +1,456 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Customer has "
+    }, {
+      "text": "1",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "toilet",
+      "parameterId": "area_toilets"
+    }, {
+      "text": " with "
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "cubicles",
+      "parameterId": "toilet_ladies",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Customer wants "
+    }, {
+      "text": "one",
+      "parameterId": "numberOfProduct"
+    }, {
+      "text": " "
+    }, {
+      "text": "Foam Seat Sanitizer",
+      "parameterId": "productsSanitiser"
+    }, {
+      "text": " for the disabled toilet"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Customer requires "
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Spray Seat Sanitizers",
+      "parameterId": "productsSanitiser"
+    }, {
+      "text": " for each toilet"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Want ",
+      "auto": true
+    }, {
+      "text": "five",
+      "parameterId": "numberOfProduct"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Anti-Theft Bracket",
+      "parameterId": "products_toilet_roller_holders",
+      "auto": true
+    }, {
+      "text": " Toilet Roll Holders for the staff room?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Should install "
+    }, {
+      "text": "three",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "5",
+      "parameterId": "products_toilet_roller_holders",
+      "auto": true
+    }, {
+      "text": " Toilet Roll Holders in the reception area"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Need "
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Deca",
+      "parameterId": "products_toilet_roller_holders",
+      "auto": true
+    }, {
+      "text": " Toilet Roll Holders for each toilet"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Require "
+    }, {
+      "text": "five",
+      "parameterId": "products_toilet_roller_holders",
+      "auto": true
+    }, {
+      "text": " Vertical "
+    }, {
+      "text": "Sateen",
+      "parameterId": "products_hand_drying_systems_air",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Soap",
+      "auto": true
+    }, {
+      "text": " Dispensers for the "
+    }, {
+      "text": "staff room",
+      "parameterId": "areaName"
+    }, {
+      "text": " "
+    }, {
+      "text": "kitchen",
+      "parameterId": "areaName"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Customer needs ",
+      "auto": true
+    }, {
+      "text": "one",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Foam Soap Dispenser",
+      "parameterId": "products_soap_dispenser",
+      "auto": true
+    }, {
+      "text": " for the women's toilets.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "They require ",
+      "auto": true
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Liquid Soap Dispensers",
+      "parameterId": "products_soap_dispenser",
+      "auto": true
+    }, {
+      "text": " for the men's toilets.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Please install ",
+      "auto": true
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Oxy Air",
+      "parameterId": "products_air_freshner",
+      "auto": true
+    }, {
+      "text": " units in each toilet.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "They need ",
+      "auto": true
+    }, {
+      "text": "three",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Air Fresheners",
+      "parameterId": "products_air_freshner",
+      "auto": true
+    }, {
+      "text": " with ",
+      "auto": true
+    }, {
+      "text": "Anti-Theft Brackets",
+      "parameterId": "products_toilet_roller_holders",
+      "auto": true
+    }, {
+      "text": " for the reception area.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Please provide one "
+    }, {
+      "text": "Disc \u0026 Dome",
+      "parameterId": "products_toilet_urinal_maintenance",
+      "auto": true
+    }, {
+      "text": " for every "
+    }, {
+      "text": "urinal",
+      "parameterId": "toilets_gents",
+      "auto": true
+    }, {
+      "text": " on the "
+    }, {
+      "text": "ground floor",
+      "parameterId": "floorName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Client requires "
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Auto Sanitisers",
+      "parameterId": "products_Sanitiser"
+    }, {
+      "text": " for each male toilet."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Ladies toilets need ",
+      "auto": true
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "She Bins",
+      "parameterId": "products_she",
+      "auto": true
+    }, {
+      "text": " for the women's toilets.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Customer requested we  provide "
+    }, {
+      "text": "one",
+      "parameterId": "numberOfProduct"
+    }, {
+      "text": " "
+    }, {
+      "text": "Wall Bin",
+      "parameterId": "facilities"
+    }, {
+      "text": " for the disabled toilet."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Building A",
+      "parameterId": "buildingName"
+    }, {
+      "text": " , "
+    }, {
+      "text": "ground floor",
+      "parameterId": "floorName"
+    }, {
+      "text": " requires "
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Multifold",
+      "parameterId": "products_hand_drying_systems_paper",
+      "auto": true
+    }, {
+      "text": " paper "
+    }, {
+      "text": "towel",
+      "parameterId": "products_hand_drying_systems_cotton",
+      "auto": true
+    }, {
+      "text": " dispensers for each "
+    }, {
+      "text": "cubicle",
+      "parameterId": "toilets_gents",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The customer needs "
+    }, {
+      "text": "Compact Paper Towel",
+      "parameterId": "products_hand_drying_systems_paper",
+      "auto": true
+    }, {
+      "text": " dispensers for the "
+    }, {
+      "text": "kitchen area",
+      "parameterId": "areaName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Team should install "
+    }, {
+      "text": "three",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "360 Air Towel",
+      "parameterId": "products_hand_drying_systems_air",
+      "auto": true
+    }, {
+      "text": " hand dryers in the "
+    }, {
+      "text": "staff room",
+      "parameterId": "areaName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The customer needs "
+    }, {
+      "text": "two",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Steiner Xchrome",
+      "parameterId": "products_hand_drying_systems_air",
+      "auto": true
+    }, {
+      "text": " hand dryers for the "
+    }, {
+      "text": "reception area.",
+      "parameterId": "areaName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "For the reception area, the required hand drying system is "
+    }, {
+      "text": "1",
+      "parameterId": "numberOfProduct",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "Steiner XChrome",
+      "parameterId": "products_hand_drying_systems_air",
+      "auto": true
+    }, {
+      "text": ", and Toilet/"
+    }, {
+      "text": "Urinal",
+      "parameterId": "toilets_gents",
+      "auto": true
+    }, {
+      "text": " Maintenance\tis "
+    }, {
+      "text": "1",
+      "parameterId": "numberOfProduct"
+    }, {
+      "text": " "
+    }, {
+      "text": "Auto Sanitizer",
+      "parameterId": "productsSanitiser"
+    }, {
+      "text": " and for Soap Dispenser "
+    }, {
+      "text": "1",
+      "parameterId": "numberOfProduct"
+    }, {
+      "text": " "
+    }, {
+      "text": "Liquid Soap Dispenser",
+      "parameterId": "products_soap_dispenser",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "white",
+    "synonyms": [ "white", "white range" ],
+    "languageCode": "en"
+  }, {
+    "value": "silver",
+    "synonyms": [ "silver", "silver range" ],
+    "languageCode": "en"
+  }, {
+    "value": "black",
+    "synonyms": [ "black", "black range" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "New Customer"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "New"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

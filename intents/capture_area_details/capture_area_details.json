@@ -1,0 +1,16 @@
+{
+  "name": "586785d1-4de3-4042-abe6-a9ff3c93af7c",
+  "displayName": "capture_area_details",
+  "parameters": [ {
+    "id": "areaName",
+    "entityType": "@sys.any"
+  }, {
+    "id": "numberOfAreas",
+    "entityType": "@sys.number"
+  }, {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

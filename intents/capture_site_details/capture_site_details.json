@@ -1,0 +1,33 @@
+{
+  "name": "f3058ef1-cdb1-4287-997a-16c2d4dea75a",
+  "displayName": "capture_site_details",
+  "parameters": [ {
+    "id": "siteName",
+    "entityType": "@sys.any"
+  }, {
+    "id": "metersSq",
+    "entityType": "@sys.number"
+  }, {
+    "id": "headCount",
+    "entityType": "@sys.number"
+  }, {
+    "id": "currrentRange",
+    "entityType": "@productRange",
+    "isList": true
+  }, {
+    "id": "requestedRange",
+    "entityType": "@productRange",
+    "isList": true
+  }, {
+    "id": "isolatorSwitch",
+    "entityType": "@yes_no"
+  }, {
+    "id": "competitor",
+    "entityType": "@sys.any"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 14
+}

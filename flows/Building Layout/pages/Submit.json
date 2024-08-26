@@ -1,0 +1,18 @@
+{
+  "name": "8c71f29f-66e7-4125-9e3a-5b77fdb939a1",
+  "displayName": "Submit",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Survey generated, please check email!" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  }
+}

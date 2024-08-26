@@ -1,0 +1,28 @@
+{
+  "name": "ff857c6f-623c-4f69-bf52-977fda72098e",
+  "displayName": "capture_customer_details",
+  "parameters": [ {
+    "id": "siteContactNumber",
+    "entityType": "@sys.phone-number"
+  }, {
+    "id": "address",
+    "entityType": "@sys.address"
+  }, {
+    "id": "companyName",
+    "entityType": "@sys.any"
+  }, {
+    "id": "siteName",
+    "entityType": "@sys.any"
+  }, {
+    "id": "siteContactPerson",
+    "entityType": "@sys.person"
+  }, {
+    "id": "branch",
+    "entityType": "@sys.any"
+  }, {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 12
+}

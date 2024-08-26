@@ -1,0 +1,37 @@
+{
+  "name": "eff12eb5-ad02-4de5-86ec-0a1d4df96d5b",
+  "displayName": "Confirmation and Excel Generation",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Are you happy with your survey? " ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "confirm_yes",
+    "triggerFulfillment": {
+      "webhook": "document",
+      "tag": "Survey Generated",
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Submit",
+    "name": "1fdbb16f-f241-42e8-ac54-750a7329c868"
+  }, {
+    "intent": "confirm_no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "a0fd3f81-5771-47c6-bef2-c0d76b7a51b2"
+  } ]
+}

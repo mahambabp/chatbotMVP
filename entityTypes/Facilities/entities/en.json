@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Walls \u0026 Floors",
+    "synonyms": [ "floors", "Walls", "Walls \u0026 Floors", "Walls and Floors" ],
+    "languageCode": "en"
+  }, {
+    "value": "Basin",
+    "synonyms": [ "Basin", "Sink" ],
+    "languageCode": "en"
+  }, {
+    "value": "Shower",
+    "synonyms": [ "Bath", "Shower" ],
+    "languageCode": "en"
+  } ]
+}
