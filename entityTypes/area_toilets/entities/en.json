@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Disabled",
+    "synonyms": [ "Disabled" ],
+    "languageCode": "en"
+  }, {
+    "value": "Gents",
+    "synonyms": [ "Gents", "Men" ],
+    "languageCode": "en"
+  }, {
+    "value": "Ladies",
+    "synonyms": [ "Ladies", "women" ],
+    "languageCode": "en"
+  } ]
+}

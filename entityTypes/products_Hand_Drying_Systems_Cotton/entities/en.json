@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Cotton Towel",
+    "synonyms": [ "Cotton Towel", "Towel" ],
+    "languageCode": "en"
+  }, {
+    "value": "none",
+    "synonyms": [ "none" ],
+    "languageCode": "en"
+  } ]
+}

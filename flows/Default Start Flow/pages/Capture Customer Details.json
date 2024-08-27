@@ -1,0 +1,135 @@
+{
+  "name": "83f2e535-9459-4934-84d7-1f95a9b86919",
+  "displayName": "Capture Customer Details",
+  "form": {
+    "parameters": [ {
+      "displayName": "companyName",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the company name?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "siteName",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the site name?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "siteContactPerson",
+      "required": true,
+      "entityType": "@sys.person",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Who is the site contact person for $session.params.siteName?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "siteContactNumber",
+      "required": true,
+      "entityType": "@sys.phone-number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is $session.params.siteCOntactPerson 's number?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "address",
+      "required": true,
+      "entityType": "@sys.address",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What  is the address  for $session.params.siteName?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "branch",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the branch name?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi there! Let's begin your onboarding. Can you share the company name, branch and address of customer you servicing?", "Welcome! To get started, please tell me a bit about your client. What's the company name, address and branch you are on?", "Great! let’s help you create a new customer…" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "capture_customer_details",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Customer Site Details",
+    "name": "4518c15c-0793-48f2-a141-4724cbb14c4d"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Customer Site Details",
+    "name": "4339b0c9-4472-44a4-9d39-76a352034421"
+  } ]
+}

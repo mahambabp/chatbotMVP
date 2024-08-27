@@ -1,0 +1,26 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Exit",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Good Bye",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "End Chat",
+      "parameterId": "geo-city",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Compact Paper Towel",
+    "synonyms": [ "Compact Paper Towel" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mystique Paper Cabinet",
+    "synonyms": [ "Mystique", "Mystique Paper Cabinet" ],
+    "languageCode": "en"
+  }, {
+    "value": "Multifold",
+    "synonyms": [ "Multifold" ],
+    "languageCode": "en"
+  }, {
+    "value": "Wallbin",
+    "synonyms": [ "Bin", "Wallbin" ],
+    "languageCode": "en"
+  }, {
+    "value": "none",
+    "synonyms": [ "none" ],
+    "languageCode": "en"
+  } ]
+}

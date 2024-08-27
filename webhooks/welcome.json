@@ -1,0 +1,10 @@
+{
+  "name": "1fd6d2ac-8d89-48e6-b0b5-5632e5ee0303",
+  "displayName": "welcome",
+  "genericWebService": {
+    "uri": "https://us-central1-steiner-sales-va-mvp.cloudfunctions.net/welcome"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

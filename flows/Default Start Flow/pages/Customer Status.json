@@ -1,0 +1,48 @@
+{
+  "name": "b5ef9076-66f4-4758-ad30-5dc1a882fb29",
+  "displayName": "Customer Status",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Is this a new or existing customer?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "mode": "blocking",
+            "text": "New"
+          }, {
+            "text": "Existing"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "New",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Capture Customer Details",
+    "name": "9b15d734-f624-47a9-a9be-a63b02e39443"
+  }, {
+    "intent": "Existing",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "42e5eeca-195f-4c39-acaf-ce9165ac2508"
+  } ]
+}

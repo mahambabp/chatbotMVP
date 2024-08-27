@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Cubicles",
+    "synonyms": [ "cubicle", "Cubicles" ],
+    "languageCode": "en"
+  }, {
+    "value": "Urinal",
+    "synonyms": [ "Urinal", "urinals" ],
+    "languageCode": "en"
+  } ]
+}

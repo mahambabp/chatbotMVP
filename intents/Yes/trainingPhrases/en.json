@@ -1,0 +1,22 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Yes",
+      "parameterId": "yes_no",
+      "auto": true
+    }, {
+      "text": " I want to add",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes",
+      "parameterId": "yes_no",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

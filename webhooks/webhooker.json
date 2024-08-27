@@ -1,0 +1,10 @@
+{
+  "name": "30b2a9b5-0d88-45d5-9b7b-1517c91c94e3",
+  "displayName": "webhooker",
+  "genericWebService": {
+    "uri": "https://us-central1-steiner-sales-va-mvp.cloudfunctions.net/webhooker"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

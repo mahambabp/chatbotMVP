@@ -1,0 +1,22 @@
+{
+  "name": "bd1c55e8-4329-489d-96b1-195fcf502289",
+  "displayName": "Collect_building_details",
+  "parameters": [ {
+    "id": "buildingName",
+    "entityType": "@sys.any"
+  }, {
+    "id": "floorName",
+    "entityType": "@sys.any"
+  }, {
+    "id": "numberOfBuildings",
+    "entityType": "@sys.number"
+  }, {
+    "id": "numberOfFloors",
+    "entityType": "@sys.number"
+  }, {
+    "id": "facilities",
+    "entityType": "@Facilities"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

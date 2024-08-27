@@ -1,0 +1,152 @@
+{
+  "name": "41044ca0-3384-49e5-86fc-918ede1e547b",
+  "displayName": "Customer Site Details",
+  "form": {
+    "parameters": [ {
+      "displayName": "metersSq",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the site size in square meters?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "headCount",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the number of employees?", "What is the Employee number on site?", "Approximate employee number?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "curentRange",
+      "required": true,
+      "entityType": "@productRange",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the current product range if any?", "What is the installed range?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "requestedRange",
+      "required": true,
+      "entityType": "@productRange",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the requested product range?", "What is the range required ? i.e. silver, black etc...." ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "isolatorSwitch",
+      "required": true,
+      "entityType": "@yes_no",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Does the customer have an isolator switch?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "competitor",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Any competitor on site?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "comment",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Does the customer have any comments?", "Any comments, made by customer?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Got it! Now, let's dive into the details of $session.params.sitename . What's the total area in square meters, how many people work there, and what are their current and desired cleaning service levels and stuff", "Great, thanks for that information! Now, let's talk about the specifics of $session.params.sitename . Can you tell me its size in square meters, the number of employees, and the current and desired cleaning service ranges etc..." ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "capture_site_details",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Building Layout",
+    "name": "3d295647-d14e-42b8-b7fe-fc19a139e8b9"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Building Layout",
+    "name": "23fb64b4-99cb-4457-8e24-f3ac2fb0a2ec"
+  } ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "6af0212b-d234-41aa-85ab-70b45f61019c",
+  "displayName": "Consultant Details",
+  "form": {
+    "parameters": [ {
+      "displayName": "consultantname",
+      "required": true,
+      "entityType": "@sys.person",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your name?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "consultantnumber",
+      "required": true,
+      "entityType": "@sys.phone-number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What's your cell number?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "consultantemail",
+      "required": true,
+      "entityType": "@sys.email",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is your email address?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please provide your name and number?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "consultant_details",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Customer Status",
+    "name": "489fd897-0e28-490b-b714-bb7b1e8d8bb8"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Customer Status",
+    "name": "b0d1864a-5d5c-4473-9e0b-d964a5c87c92"
+  } ]
+}
