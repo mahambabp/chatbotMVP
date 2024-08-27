@@ -1,0 +1,61 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hello! I’m Hi-Genie , your virtual sales assistant from Bidvest Steiner, I’m here to help you close the deal…." ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Consultant Details",
+    "name": "c12d8b7e-d34c-458a-ae01-d923651f9a4e"
+  }, {
+    "intent": "End Conversation",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "10346c5b-02be-4231-8cd1-d8400f517cbe"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "47af0c93-8d81-4d95-9640-4430fb2c780e"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "31c2f1be-ddd3-43f5-b448-6b61a2721680"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "f1fb572e-036a-4777-be0e-33077570508a",
+    "languageCode": "en"
+  } ]
+}

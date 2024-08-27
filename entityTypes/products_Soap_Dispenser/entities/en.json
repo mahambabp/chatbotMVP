@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Liquid soap dispenser",
+    "synonyms": [ "Liquid soap dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Foam soap dispenser",
+    "synonyms": [ "Foam soap dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hand Sanitiser",
+    "synonyms": [ "Hand Sanitiser" ],
+    "languageCode": "en"
+  } ]
+}

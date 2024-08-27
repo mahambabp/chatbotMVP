@@ -1,0 +1,62 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "1 area",
+      "parameterId": "numberOfAreas"
+    }, {
+      "text": ", "
+    }, {
+      "text": "reception area",
+      "parameterId": "areaName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "In the "
+    }, {
+      "text": "Storage building"
+    }, {
+      "text": " the is only "
+    }, {
+      "text": "1 area",
+      "parameterId": "numberOfAreas"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "In the  "
+    }, {
+      "text": "Main Building"
+    }, {
+      "text": " on the "
+    }, {
+      "text": "ground floor"
+    }, {
+      "text": ", we need to service "
+    }, {
+      "text": "the lobby",
+      "parameterId": "areaName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "On "
+    }, {
+      "text": "floor 1"
+    }, {
+      "text": " of "
+    }, {
+      "text": "building 1"
+    }, {
+      "text": ", there's a "
+    }, {
+      "text": "bathroom area",
+      "parameterId": "areaName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

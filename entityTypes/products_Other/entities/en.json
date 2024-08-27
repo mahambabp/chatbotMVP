@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Condom Dispenser",
+    "synonyms": [ "Condom", "Condom Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mat",
+    "synonyms": [ "Mat" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hygenator",
+    "synonyms": [ "Hygenator" ],
+    "languageCode": "en"
+  }, {
+    "value": "Smoking",
+    "synonyms": [ "Smoking" ],
+    "languageCode": "en"
+  } ]
+}

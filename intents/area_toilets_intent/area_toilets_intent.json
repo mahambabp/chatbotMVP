@@ -1,0 +1,10 @@
+{
+  "name": "5e1c76da-829b-4a5d-8e5a-f3f386579817",
+  "displayName": "area_toilets_intent",
+  "parameters": [ {
+    "id": "area_toilets",
+    "entityType": "@area_toilets"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

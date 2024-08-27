@@ -1,0 +1,17 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Sure",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "proceed",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

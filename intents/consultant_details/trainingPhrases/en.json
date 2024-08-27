@@ -1,0 +1,89 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "name is "
+    }, {
+      "text": "Tom Swayer",
+      "parameterId": "consultantname",
+      "auto": true
+    }, {
+      "text": " and email address is "
+    }, {
+      "text": "toms@yahoo.com",
+      "parameterId": "consultantemail",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my email is "
+    }, {
+      "text": "mahambabp@gmail.com",
+      "parameterId": "consultantemail"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "cell number is "
+    }, {
+      "text": "0694569878",
+      "parameterId": "consultantnumber",
+      "auto": true
+    }, {
+      "text": " and my name is "
+    }, {
+      "text": "John Doe",
+      "parameterId": "consultantname",
+      "auto": true
+    }, {
+      "text": "  and my email address is "
+    }, {
+      "text": "bafanam@gmail.com",
+      "parameterId": "consultantemail"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Cell number is ",
+      "auto": true
+    }, {
+      "text": "0734564565",
+      "parameterId": "consultantnumber",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Name is ",
+      "auto": true
+    }, {
+      "text": "Bafana",
+      "parameterId": "consultantname",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Name is Jane ",
+      "auto": true
+    }, {
+      "text": "Doe",
+      "parameterId": "consultantname",
+      "auto": true
+    }, {
+      "text": ", cell number is ",
+      "auto": true
+    }, {
+      "text": "0749162239",
+      "parameterId": "consultantnumber",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

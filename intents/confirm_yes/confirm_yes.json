@@ -1,0 +1,10 @@
+{
+  "name": "e4568351-ae11-42b1-9ae3-eb32bc950d67",
+  "displayName": "confirm_yes",
+  "parameters": [ {
+    "id": "yes_no",
+    "entityType": "@yes_no"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}
