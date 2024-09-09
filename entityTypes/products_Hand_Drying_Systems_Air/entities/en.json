@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Steiner Xchrome",
+    "synonyms": [ "Steiner Xchrome", "Xchrome" ],
+    "languageCode": "en"
+  }, {
+    "value": "360 Air Towel",
+    "synonyms": [ "360 Air Towel", "Air Towel" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hepa Sateen",
+    "synonyms": [ "Hepa Sateen", "Sateen" ],
+    "languageCode": "en"
+  }, {
+    "value": "Trimline",
+    "synonyms": [ "Trimline" ],
+    "languageCode": "en"
+  }, {
+    "value": "none",
+    "synonyms": [ "none" ],
+    "languageCode": "en"
+  } ]
+}

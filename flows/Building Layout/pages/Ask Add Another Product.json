@@ -1,0 +1,39 @@
+{
+  "name": "7b81b35c-9f11-43eb-860a-52a48c28d671",
+  "displayName": "Ask Add Another Product",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like to add another product to your order?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "collected_products",
+      "value": "$session.params.collected_products ? $session.params.collected_products : []"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Add_Another_Product",
+    "triggerFulfillment": {
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Collect Product Information",
+    "name": "fdad63c3-dfd4-44ee-9dea-3bc38da66731"
+  }, {
+    "intent": "Finish_Product_Collection",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Confirmation and Excel Generation",
+    "name": "590d81c6-3d53-44dd-83eb-cfac78035944"
+  } ]
+}

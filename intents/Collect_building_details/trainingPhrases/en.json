@@ -1,0 +1,151 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "There is "
+    }, {
+      "text": "one",
+      "parameterId": "numberOfBuildings"
+    }, {
+      "text": " building on site, the building name is "
+    }, {
+      "text": "Senate",
+      "parameterId": "buildingName"
+    }, {
+      "text": ", Senate has "
+    }, {
+      "text": "1 floor",
+      "parameterId": "numberOfFloors"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have "
+    }, {
+      "text": "1",
+      "parameterId": "numberOfBuildings",
+      "auto": true
+    }, {
+      "text": " building on site and the building name is "
+    }, {
+      "text": "Senate",
+      "parameterId": "buildingName"
+    }, {
+      "text": " and it has "
+    }, {
+      "text": "1",
+      "parameterId": "numberOfFloors"
+    }, {
+      "text": " "
+    }, {
+      "text": "floor",
+      "parameterId": "facilities",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "There's a "
+    }, {
+      "text": "1 building",
+      "parameterId": "numberOfBuildings"
+    }, {
+      "text": " named "
+    }, {
+      "text": "main building",
+      "parameterId": "buildingName"
+    }, {
+      "text": ", and that building has "
+    }, {
+      "text": "1",
+      "parameterId": "numberOfFloors"
+    }, {
+      "text": " "
+    }, {
+      "text": "floor",
+      "parameterId": "facilities",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The building has "
+    }, {
+      "text": "2 floors",
+      "parameterId": "numberOfFloors"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "There's currently "
+    }, {
+      "text": "3",
+      "parameterId": "numberOfBuildings"
+    }, {
+      "text": " buildings on site"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have ",
+      "auto": true
+    }, {
+      "text": "two",
+      "parameterId": "numberOfBuildings",
+      "auto": true
+    }, {
+      "text": " buildings on site",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The second floor in   "
+    }, {
+      "text": "building 1",
+      "parameterId": "buildingName",
+      "auto": true
+    }, {
+      "text": " is the Mezzanine"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "In "
+    }, {
+      "text": "building 1",
+      "parameterId": "buildingName"
+    }, {
+      "text": ", there's a "
+    }, {
+      "text": "floor 1",
+      "parameterId": "floorName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The first building is named  "
+    }, {
+      "text": "Main Building",
+      "parameterId": "buildingName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "They have a building called  "
+    }, {
+      "text": "building 1",
+      "parameterId": "buildingName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

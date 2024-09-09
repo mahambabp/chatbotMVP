@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Auto Sanitiser",
+    "synonyms": [ "Auto Sanitiser", "Sanitiser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Disc \u0026 Dome",
+    "synonyms": [ "Disc \u0026 Dome", "Disc and Dome" ],
+    "languageCode": "en"
+  }, {
+    "value": "Autoflush",
+    "synonyms": [ "Autoflush", "Auto Flush" ],
+    "languageCode": "en"
+  } ]
+}

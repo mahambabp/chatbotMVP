@@ -1,0 +1,116 @@
+{
+  "name": "b8316d43-ff7b-4081-b56d-de6ef87c11c6",
+  "displayName": "Collect Product Information",
+  "form": {
+    "parameters": [ {
+      "displayName": "product_category",
+      "required": true,
+      "entityType": "@product_category",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Which product category are you interested in?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "product_type",
+      "required": true,
+      "entityType": "@product_type",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the product type you would like?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "product_name",
+      "required": true,
+      "entityType": "@product_name",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Which specific product would you like?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "quantity",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How many units do you need?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Let's get started on assessing your facility's needs. To begin, please provide the following information: facility and product needs" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Collect_Product_Details",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "collected_products",
+        "value": "\"{ \"product_category\": \"$session.params.product_category\",  \"product_type\": \"$session.params.product_type\", \"product_name\": \"$session.params.product_name\", \"quantity\": \"$session.params.quantity\" }, \"$session.params.collected_products\""
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Ask Add Another Product",
+    "name": "1a34ffd1-6c15-48b9-b06c-87c58bbef0fb"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "collected_products",
+        "value": "\"{ \"product_category\": \"$session.params.product_category\",  \"product_type\": \"$session.params.product_type\", \"product_name\": \"$session.params.product_name\", \"quantity\": \"$session.params.quantity\" }, \"$session.params.collected_products\""
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "Ask Add Another Product",
+    "name": "73249651-529c-4f8d-a273-146f1abd743f"
+  } ]
+}

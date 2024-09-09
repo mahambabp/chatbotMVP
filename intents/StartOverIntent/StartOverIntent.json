@@ -1,0 +1,6 @@
+{
+  "name": "5eece405-1aa2-4f96-8bfb-9d9d3548015f",
+  "displayName": "StartOverIntent",
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

@@ -1,0 +1,296 @@
+{
+  "name": "b1045c61-7b49-4ce0-902d-fc32d3a3ce05",
+  "displayName": "FacilitiesTo Be Serviced",
+  "form": {
+    "parameters": [ {
+      "displayName": "toiletsNumber",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How many toilets do you have?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "area_toilets",
+      "required": true,
+      "entityType": "@area_toilets",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "For which of the following?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Disabled"
+                }, {
+                  "text": "Gents"
+                }, {
+                  "text": "Ladies"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "toilets_gents",
+      "required": true,
+      "entityType": "@toilets_gents",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What facilities are in the toilets i.e: cubicles and urinals?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "air_hand_drying_system",
+      "required": true,
+      "entityType": "@products_Hand_Drying_Systems_Air",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What Air hand drying system do you need? and how many?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "paper_hand_drying_system",
+      "required": true,
+      "entityType": "@products_Hand_Drying_Systems_Paper",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What Paper hand drying system do you want ? and how many?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "cotton_hand_drying_system",
+      "required": true,
+      "entityType": "@products_Hand_Drying_Systems_Cotton",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What cotton hand drying systems do you need? and how many?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "product_soap_dispenser",
+      "required": true,
+      "entityType": "@products_Soap_Dispenser",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What kind of soap dispenser the client requires?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "productsSanitiser",
+      "required": true,
+      "entityType": "@products_Sanitiser",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What sanitizer do you need ?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "facilities",
+      "required": true,
+      "entityType": "@Facilities",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "what facilities do you want serviced?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "she",
+      "required": true,
+      "entityType": "@products_She",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What she products do you require and how many?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "$session.params.product_she",
+            "value": "No she products"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "Toilet_Urinal_Maintanence",
+      "required": true,
+      "entityType": "@products_Toilet_Urinal_Maintenance",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "For toilet, urinal and maintenance what products do you require?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "air_freshner",
+      "required": true,
+      "entityType": "@products_Air_Freshner",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What air fresheners do you want?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "toilet_roller_holders",
+      "required": true,
+      "entityType": "@products_Toilet_Roller_Holders",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What toilet roller does the customer want and how many?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Let's get started on assessing your facility's needs. To begin, please provide the following information: facility and product needs" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Products_Requested",
+    "triggerFulfillment": {
+    
+    },
+    "name": "eafff2a9-8ee2-4231-9f87-ee5ca40cd307"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "name": "e5606c9f-7b45-4475-aa6e-c8b7fc3eba1c"
+  } ],
+  "eventHandlers": [ {
+    "event": "webhook.error",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Webhook error" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "name": "ac3b5a0a-89e2-4239-9c18-de32dc2e329d"
+  } ]
+}

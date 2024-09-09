@@ -1,0 +1,67 @@
+{
+  "name": "963ba238-46cf-4dd6-8e57-1098099926b8",
+  "displayName": "Area Details and Requirements",
+  "form": {
+    "parameters": [ {
+      "displayName": "numberOfAreas",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How many areas in the $session.params.nameOfBuilding , $session.params.floorName?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "areaName",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What area are you on ? in $session.params.nameOfBuilding, $session.params.floorName" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Perfect! Now, let's move on to the areas in the building. Can you tell me about the different floors and areas within those floors, and the facilities you'd like us to service?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "capture_area_details",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Collect Product Information",
+    "name": "366e6abd-22de-4861-be4a-cb720fbfcfd3"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Collect Product Information",
+    "name": "700c0f5b-32a3-43ae-a3f1-af4a2c26cad6"
+  } ]
+}

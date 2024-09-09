@@ -1,0 +1,43 @@
+{
+  "entities": [ {
+    "value": "Cotton",
+    "synonyms": [ "Cotton", "Cotton Type" ],
+    "languageCode": "en"
+  }, {
+    "value": "Paper",
+    "synonyms": [ "Paper", "Paper Type" ],
+    "languageCode": "en"
+  }, {
+    "value": "Air",
+    "synonyms": [ "Air", "Air Type" ],
+    "languageCode": "en"
+  }, {
+    "value": "SHE",
+    "synonyms": [ "SHE" ],
+    "languageCode": "en"
+  }, {
+    "value": "Toilet/Urinal Maintenance",
+    "synonyms": [ "Toilet/Urinal Maintenance" ],
+    "languageCode": "en"
+  }, {
+    "value": "Air Freshener",
+    "synonyms": [ "Air Freshener" ],
+    "languageCode": "en"
+  }, {
+    "value": "Soap Dispenser",
+    "synonyms": [ "Soap Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Toilet Roll Holders",
+    "synonyms": [ "Toilet Roll Holders" ],
+    "languageCode": "en"
+  }, {
+    "value": "Sanitizer",
+    "synonyms": [ "Sanitizer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Other",
+    "synonyms": [ "Other" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,182 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Site name is "
+    }, {
+      "text": "100 sq meters",
+      "parameterId": "metersSq",
+      "auto": true
+    }, {
+      "text": ", the number of "
+    }, {
+      "text": "employees is two hundred",
+      "parameterId": "headCount"
+    }, {
+      "text": " the current range is "
+    }, {
+      "text": "black",
+      "parameterId": "currrentRange",
+      "auto": true
+    }, {
+      "text": " and the requested range is "
+    }, {
+      "text": "silver",
+      "parameterId": "requestedRange"
+    }, {
+      "text": " and "
+    }, {
+      "text": "yes",
+      "parameterId": "isolatorSwitch",
+      "auto": true
+    }, {
+      "text": " the customer has an isolator switch and our competitor is "
+    }, {
+      "text": "Servest",
+      "parameterId": "competitor"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the current range is "
+    }, {
+      "text": "black",
+      "parameterId": "currrentRange",
+      "auto": true
+    }, {
+      "text": " and the requested range is "
+    }, {
+      "text": "silver",
+      "parameterId": "requestedRange"
+    }, {
+      "text": " and "
+    }, {
+      "text": "yes",
+      "parameterId": "isolatorSwitch"
+    }, {
+      "text": " the customer has an isolator switch"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The site is "
+    }, {
+      "text": "100 sq meters",
+      "parameterId": "metersSq",
+      "auto": true
+    }, {
+      "text": ", the "
+    }, {
+      "text": "number of employees is 100",
+      "parameterId": "headCount"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Our competitor is ",
+      "auto": true
+    }, {
+      "text": "Servest",
+      "parameterId": "competitor"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "No",
+      "parameterId": "isolatorSwitch",
+      "auto": true
+    }, {
+      "text": ", the customer does not have isolator switch",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Yes",
+      "parameterId": "isolatorSwitch",
+      "auto": true
+    }, {
+      "text": ", the customer has isolator switch"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "the requested range is ",
+      "auto": true
+    }, {
+      "text": "silver",
+      "parameterId": "requestedRange"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The current range is ",
+      "auto": true
+    }, {
+      "text": "black",
+      "parameterId": "currrentRange",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "head count is 130",
+      "parameterId": "headCount"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The number of "
+    }, {
+      "text": "employees is one hundred",
+      "parameterId": "headCount"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "100 square meters",
+      "parameterId": "metersSq",
+      "auto": true
+    }, {
+      "text": " is the site"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The site is "
+    }, {
+      "text": "1000 sq meters",
+      "parameterId": "metersSq"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "site name is "
+    }, {
+      "text": "BEX kempton",
+      "parameterId": "siteName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "They have site called "
+    }, {
+      "text": "BAAS Head Office",
+      "parameterId": "siteName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

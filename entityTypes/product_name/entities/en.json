@@ -1,0 +1,119 @@
+{
+  "entities": [ {
+    "value": "Cotton Towel",
+    "synonyms": [ "Cotton Towel" ],
+    "languageCode": "en"
+  }, {
+    "value": "Compact Paper Towel",
+    "synonyms": [ "Compact Paper Towel" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mystique Paper Cabinet",
+    "synonyms": [ "Mystique Paper Cabinet" ],
+    "languageCode": "en"
+  }, {
+    "value": "Multifold",
+    "synonyms": [ "Multifold" ],
+    "languageCode": "en"
+  }, {
+    "value": "Wall Bin",
+    "synonyms": [ "Wall Bin" ],
+    "languageCode": "en"
+  }, {
+    "value": "Steiner Xchrome",
+    "synonyms": [ "Steiner Xchrome" ],
+    "languageCode": "en"
+  }, {
+    "value": "360 Air Towel",
+    "synonyms": [ "360 Air Towel" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hepa Sateen",
+    "synonyms": [ "Hepa Sateen" ],
+    "languageCode": "en"
+  }, {
+    "value": "Trimline",
+    "synonyms": [ "Trimline" ],
+    "languageCode": "en"
+  }, {
+    "value": "She Bin",
+    "synonyms": [ "She Bin" ],
+    "languageCode": "en"
+  }, {
+    "value": "She Packet Dispenser",
+    "synonyms": [ "She Packet Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Auto Sanitizer",
+    "synonyms": [ "Auto Sanitizer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Disc \u0026 Dome",
+    "synonyms": [ "Disc \u0026 Dome" ],
+    "languageCode": "en"
+  }, {
+    "value": "Autoflush",
+    "synonyms": [ "Autoflush" ],
+    "languageCode": "en"
+  }, {
+    "value": "Air Freshener",
+    "synonyms": [ "Air Freshener" ],
+    "languageCode": "en"
+  }, {
+    "value": "Anti Theft Bracket",
+    "synonyms": [ "Anti Theft Bracket" ],
+    "languageCode": "en"
+  }, {
+    "value": "Oxy Air",
+    "synonyms": [ "Oxy Air" ],
+    "languageCode": "en"
+  }, {
+    "value": "Liquid Soap Dispenser",
+    "synonyms": [ "Liquid Soap Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Foam Soap Dispenser",
+    "synonyms": [ "Foam Soap Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Vertical / Horizontal Sateen",
+    "synonyms": [ "Vertical / Horizontal Sateen" ],
+    "languageCode": "en"
+  }, {
+    "value": "Deca",
+    "synonyms": [ "Deca" ],
+    "languageCode": "en"
+  }, {
+    "value": "5",
+    "synonyms": [ "5" ],
+    "languageCode": "en"
+  }, {
+    "value": "Spray Seat Sanitizer",
+    "synonyms": [ "Spray Seat Sanitizer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Foam Seat Sanitiser",
+    "synonyms": [ "Foam Seat Sanitiser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hand Sanitizer",
+    "synonyms": [ "Hand Sanitizer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Condom Dispenser",
+    "synonyms": [ "Condom Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mat",
+    "synonyms": [ "Mat" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hygenator",
+    "synonyms": [ "Hygenator" ],
+    "languageCode": "en"
+  }, {
+    "value": "Smoking",
+    "synonyms": [ "Smoking" ],
+    "languageCode": "en"
+  } ]
+}

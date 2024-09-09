@@ -1,0 +1,13 @@
+{
+  "name": "b6f0806d-b28c-4053-bcb6-8ad2b9b370a3",
+  "displayName": "End Conversation",
+  "parameters": [ {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

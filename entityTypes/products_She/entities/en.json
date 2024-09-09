@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "She Bin",
+    "synonyms": [ "She", "She Bin" ],
+    "languageCode": "en"
+  }, {
+    "value": "She Packet Dispenser",
+    "synonyms": [ "She Packet Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "No she products",
+    "synonyms": [ "No she products" ],
+    "languageCode": "en"
+  } ]
+}

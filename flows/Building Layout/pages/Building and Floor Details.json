@@ -1,0 +1,102 @@
+{
+  "name": "6295a82c-bf00-4ca3-aeb1-2916e6b9003a",
+  "displayName": "Building and Floor Details",
+  "form": {
+    "parameters": [ {
+      "displayName": "numberOfBuildings",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How many buildings on site?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "nameOfBuilding",
+      "required": true,
+      "entityType": "@sys.any",
+      "isList": true,
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the building name?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "numberOfFloors",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "how many floors in $session.params.nameOfBuilding ?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    }, {
+      "displayName": "floorName",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the floor name?" ]
+            },
+            "languageCode": "en"
+          } ],
+          "nextActionOverride": {
+          
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Excellent! Next, we need to gather some information about the buildings on site. Please describe the buildings, their floors, the areas within each floor, and the specific facilities you want us to take care of" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "Collect_building_details",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Area Details and Requirements",
+    "name": "89275c9c-5de6-40f1-bace-5daec18fadc9"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Area Details and Requirements",
+    "name": "fd104da1-1a20-449d-91f0-bb3dde8f1dbb"
+  } ]
+}

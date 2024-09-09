@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "@products_Hand_Drying_Systems_Cotton:",
+    "synonyms": [ "@products_Hand_Drying_Systems_Cotton:" ],
+    "languageCode": "en"
+  }, {
+    "value": "@products_Hand_Drying_Systems_Paper:",
+    "synonyms": [ "@products_Hand_Drying_Systems_Paper:" ],
+    "languageCode": "en"
+  }, {
+    "value": "@products_Hand_Drying_Systems_Air:",
+    "synonyms": [ "@products_Hand_Drying_Systems_Air:" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "c1a1264d-1951-4bab-a3d5-71d5c03ece57",
+  "displayName": "consultant_details",
+  "parameters": [ {
+    "id": "consultantname",
+    "entityType": "@sys.person"
+  }, {
+    "id": "consultantnumber",
+    "entityType": "@sys.phone-number"
+  }, {
+    "id": "consultantemail",
+    "entityType": "@sys.email"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

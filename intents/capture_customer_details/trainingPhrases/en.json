@@ -1,0 +1,198 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "the site contact person is "
+    }, {
+      "text": "Bafana Mahamba",
+      "parameterId": "siteContactPerson",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The company is called "
+    }, {
+      "text": "BEX express",
+      "parameterId": "companyName"
+    }, {
+      "text": ", the site's name is "
+    }, {
+      "text": "BEX express Kempton,",
+      "parameterId": "siteName"
+    }, {
+      "text": "  the site contact person is "
+    }, {
+      "text": "Jane Doe,",
+      "parameterId": "siteContactPerson"
+    }, {
+      "text": "  and her number is "
+    }, {
+      "text": "0749624854,",
+      "parameterId": "siteContactNumber"
+    }, {
+      "text": " the site is located at "
+    }, {
+      "text": "09 lopper avenue Kempton Park",
+      "parameterId": "address"
+    }, {
+      "text": " and the Branch is "
+    }, {
+      "text": "Aeroport",
+      "parameterId": "branch"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The customer in question  is "
+    }, {
+      "text": "Acme Corp",
+      "parameterId": "companyName"
+    }, {
+      "text": " , the site is called "
+    }, {
+      "text": "Acme site",
+      "parameterId": "siteName"
+    }, {
+      "text": " , they can be contacted at "
+    }, {
+      "text": "0019624854",
+      "parameterId": "siteContactNumber",
+      "auto": true
+    }, {
+      "text": " and the site contact person is is "
+    }, {
+      "text": "Jane",
+      "parameterId": "siteContactPerson"
+    }, {
+      "text": " and branch is "
+    }, {
+      "text": "Aeroport",
+      "parameterId": "branch"
+    }, {
+      "text": " and the address is "
+    }, {
+      "text": "115 Sydney avenue",
+      "parameterId": "address"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The company's name is "
+    }, {
+      "text": "Acme Corp",
+      "parameterId": "companyName"
+    }, {
+      "text": " , the site is called "
+    }, {
+      "text": "Acme",
+      "parameterId": "siteName"
+    }, {
+      "text": " site, the address is "
+    }, {
+      "text": "110 lopper avenue",
+      "parameterId": "address"
+    }, {
+      "text": " , they can be contacted at "
+    }, {
+      "text": "0019624854",
+      "parameterId": "siteContactNumber",
+      "auto": true
+    }, {
+      "text": " and the site contact person is is "
+    }, {
+      "text": "Jane",
+      "parameterId": "siteContactPerson"
+    }, {
+      "text": " and branch is "
+    }, {
+      "text": "Aeroport",
+      "parameterId": "branch"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Aeroport",
+      "parameterId": "branch"
+    }, {
+      "text": " is my branch"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My branch is ",
+      "auto": true
+    }, {
+      "text": "Aeroport",
+      "parameterId": "branch"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The person to call on site is ",
+      "auto": true
+    }, {
+      "text": "Jane",
+      "parameterId": "siteContactPerson",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "You can reach them at   ",
+      "auto": true
+    }, {
+      "text": "0112345678",
+      "parameterId": "siteContactNumber",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The address is"
+    }, {
+      "text": "123 Main Street",
+      "parameterId": "address"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Their site is called   "
+    }, {
+      "text": "Bafana site",
+      "parameterId": "siteName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "The company's name is   "
+    }, {
+      "text": "Acme Corp",
+      "parameterId": "companyName"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm working with "
+    }, {
+      "text": "Bafana Inc",
+      "parameterId": "companyName"
+    }, {
+      "text": " "
+    }, {
+      "text": "today"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

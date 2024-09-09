@@ -1,0 +1,95 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Add "
+    }, {
+      "text": "4",
+      "parameterId": "quantity"
+    }, {
+      "text": " "
+    }, {
+      "text": "SHE bins",
+      "parameterId": "product_name"
+    }, {
+      "text": " to the list"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need "
+    }, {
+      "text": "1",
+      "parameterId": "quantity"
+    }, {
+      "text": " "
+    }, {
+      "text": "Steiner Xchrome",
+      "parameterId": "product_name",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Order ",
+      "auto": true
+    }, {
+      "text": "5",
+      "parameterId": "quantity"
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Multifold",
+      "parameterId": "product_name",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "papers"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Please add ",
+      "auto": true
+    }, {
+      "text": "2",
+      "parameterId": "quantity",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Compact Paper Towels",
+      "parameterId": "product_name"
+    }, {
+      "text": " to my order",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to order "
+    }, {
+      "text": "3",
+      "parameterId": "quantity"
+    }, {
+      "text": " "
+    }, {
+      "text": "Cotton Towels",
+      "parameterId": "product_name",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

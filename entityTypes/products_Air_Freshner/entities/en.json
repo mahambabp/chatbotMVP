@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Air Freshener",
+    "synonyms": [ "Air Freshener" ],
+    "languageCode": "en"
+  }, {
+    "value": "Anti Theft Bracket",
+    "synonyms": [ "Anti Theft Bracket" ],
+    "languageCode": "en"
+  }, {
+    "value": "Oxy Air",
+    "synonyms": [ "Oxy Air" ],
+    "languageCode": "en"
+  } ]
+}

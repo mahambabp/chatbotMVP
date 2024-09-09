@@ -1,0 +1,39 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Women",
+      "parameterId": "area_toilets",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Disabled",
+      "parameterId": "area_toilets"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Ladies",
+      "parameterId": "area_toilets"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Men",
+      "parameterId": "area_toilets"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Gents",
+      "parameterId": "area_toilets"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

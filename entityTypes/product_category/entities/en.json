@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Hand Drying Systems",
+    "synonyms": [ " Dryer", " Hand Dry", "Drying Systems", "Hand Drying Systems" ],
+    "languageCode": "en"
+  }, {
+    "value": "SHE",
+    "synonyms": [ "Sanitary", "SHE" ],
+    "languageCode": "en"
+  }, {
+    "value": "Toilet/Urinal Maintenance",
+    "synonyms": [ "Toilet/Urinal Maintenance", "maintatenance" ],
+    "languageCode": "en"
+  }, {
+    "value": "Air Freshener",
+    "synonyms": [ "Air Freshener" ],
+    "languageCode": "en"
+  }, {
+    "value": "Soap Dispenser",
+    "synonyms": [ "Soap Dispenser" ],
+    "languageCode": "en"
+  }, {
+    "value": "Toilet Roll Holders",
+    "synonyms": [ "Toilet Roll Holders" ],
+    "languageCode": "en"
+  }, {
+    "value": "Sanitizer",
+    "synonyms": [ "Sanitizer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Other",
+    "synonyms": [ "Other" ],
+    "languageCode": "en"
+  } ]
+}
